@@ -8,6 +8,6 @@ export default {
   root: join(dirname(path), "client"),
   plugins: [react()],
   server: {
-    allowedHosts: ['all',"realtimecustomgptassistant.onrender.com"],
+    allowedHosts: true,
   },
 };
